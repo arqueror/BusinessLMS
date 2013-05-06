@@ -9,7 +9,7 @@ namespace BusinessLMSWeb.Models
         public int languageId { get; set; }
 
         [Required]
-        [Display(Name = "Language")]
+        [Display(Name = "Language", ResourceType = typeof(TextResources.Businesslms))]
         [DataType(DataType.Text)]
         public string language1 { get; set; }
     }

@@ -21,7 +21,7 @@
             </div>
 
             <div class="metro-form-control">
-                <label for="areaId">What is your Dream related to</label>
+                @Html.LabelFor(model => model.areaId)
                 <div class="metro-select-box">
                     @Html.DropDownListFor(model => model.areaId, (SelectList)ViewBag.areas)
                     @Html.ValidationMessageFor(model => model.areaId)

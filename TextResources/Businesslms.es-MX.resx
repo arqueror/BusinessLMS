@@ -117,7 +117,70 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AreaTitle" xml:space="preserve">
+    <value>Con que esta relacionado tu Sueño</value>
+  </data>
+  <data name="BookAutor" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="BookBuyLink" xml:space="preserve">
+    <value>Liga de Compra</value>
+  </data>
+  <data name="BookCount" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="BookPriority" xml:space="preserve">
+    <value>Prioridad</value>
+  </data>
+  <data name="BookTitle" xml:space="preserve">
+    <value>Libros recomendados</value>
+  </data>
+  <data name="ContactAddress" xml:space="preserve">
+    <value>Direccion</value>
+  </data>
+  <data name="ContactCellNumber" xml:space="preserve">
+    <value>Numero de Tel. celular</value>
+  </data>
+  <data name="ContactCity" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>Correo electronico</value>
+  </data>
+  <data name="ContactFirstName" xml:space="preserve">
+    <value>Nombre(s)</value>
+  </data>
+  <data name="ContactLanguageId" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="ContactLastName" xml:space="preserve">
+    <value>Apellido</value>
+  </data>
+  <data name="ContactLevel" xml:space="preserve">
+    <value>Nivel de contacto</value>
+  </data>
+  <data name="ContactPhoneNumber" xml:space="preserve">
+    <value>Numero de telefono</value>
+  </data>
+  <data name="ContactPreferred" xml:space="preserve">
+    <value>Metodo de contacto preferido</value>
+  </data>
+  <data name="ContactPreferredTIme" xml:space="preserve">
+    <value>Tiempo de contacto</value>
+  </data>
+  <data name="ContactState" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="ContactTypeId" xml:space="preserve">
+    <value>TIpo de Contacto</value>
+  </data>
+  <data name="ContactZipCode" xml:space="preserve">
+    <value>Codigo postal</value>
+  </data>
   <data name="FirstName" xml:space="preserve">
     <value>Nombre</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Lenguaje</value>
   </data>
 </root>

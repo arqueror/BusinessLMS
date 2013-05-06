@@ -117,7 +117,76 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AreaTitle" xml:space="preserve">
+    <value>What is your Dream related to</value>
+  </data>
+  <data name="BookAutor" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="BookBuyLink" xml:space="preserve">
+    <value>Buy Link</value>
+  </data>
+  <data name="BookCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="BookPriority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="BookTitle" xml:space="preserve">
+    <value>Recommended Books</value>
+  </data>
+  <data name="ContacrtZipCode" xml:space="preserve">
+    <value>ZipCode</value>
+  </data>
+  <data name="ContactAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="ContactBirthDate" xml:space="preserve">
+    <value>mm/dd//yyyy</value>
+  </data>
+  <data name="ContactCellNumber" xml:space="preserve">
+    <value>Cell Phone Number</value>
+  </data>
+  <data name="ContactCity" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>EMail</value>
+  </data>
+  <data name="ContactFirstName" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <data name="ContactLanguageId" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="ContactLastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="ContactLevel" xml:space="preserve">
+    <value>Contact Level</value>
+  </data>
+  <data name="ContactNewsLetter" xml:space="preserve">
+    <value>I Would you like to receive Ibovirtual.com Newsletter</value>
+  </data>
+  <data name="ContactPhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="ContactPrefered" xml:space="preserve">
+    <value>Preferred contact Method</value>
+  </data>
+  <data name="ContactPreferredTime" xml:space="preserve">
+    <value>Preferred contact time</value>
+  </data>
+  <data name="ContactState" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="ContactTypeId" xml:space="preserve">
+    <value>Contact Type</value>
+  </data>
   <data name="FirstName" xml:space="preserve">
     <value>First Name</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Lenguaje</value>
   </data>
 </root>

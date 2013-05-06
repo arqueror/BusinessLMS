@@ -12,7 +12,7 @@
         <legend>Contact</legend>
 
         <div class="metro-form-control">
-            <label for="dream1">ID</label>
+            @Html.LabelFor(model=>model.contactId)
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.IBONum)
                 @Html.ValidationMessageFor(model => model.IBONum)
@@ -20,7 +20,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="contactTypeId">Contact Type</label>
+             @Html.LabelFor(model=>model.contactTypeId)
             <div class="metro-select-box">
                 @Html.DropDownListFor(model => model.contactTypeId, (SelectList)ViewBag.contacttypes)
                 @Html.ValidationMessageFor(model => model.contactTypeId)
@@ -28,7 +28,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="languageId">Language</label>
+            @Html.LabelFor(model=>model.languageId)
             <div class="metro-select-box">
                 @Html.DropDownListFor(model => model.languageId, (SelectList)ViewBag.languages)
                 @Html.ValidationMessageFor(model => model.languageId)
@@ -36,7 +36,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="firstName">First Name</label>
+            @Html.LabelFor(model=>model.firstName )
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.firstName)
                 @Html.ValidationMessageFor(model => model.firstName)
@@ -44,7 +44,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="lastName">Last Name</label>
+            @Html.LabelFor(model=>model.lastName )
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.lastName)
                 @Html.ValidationMessageFor(model => model.lastName)
@@ -52,7 +52,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="preferred">Preferred Contact Method</label>
+            <@Html.LabelFor(model=>model.preferred)
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.preferred)
                 @Html.ValidationMessageFor(model => model.preferred)
@@ -60,7 +60,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="firstName">Prefered Contact Time</label>
+           @Html.LabelFor(model=>model.preferedTime)
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.preferedTime)
                 @Html.ValidationMessageFor(model => model.preferedTime)
@@ -68,7 +68,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="contactLevel">Contact Level</label>
+            @Html.LabelFor(model=>model.contactLevel)
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.contactLevel)
                 @Html.ValidationMessageFor(model => model.contactLevel)
@@ -76,7 +76,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="birthday">Birthday</label> (mm/dd/yyyy)
+            @Html.LabelFor(model=>model.birthday)
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.birthday)
                 @Html.ValidationMessageFor(model => model.birthday)
@@ -85,7 +85,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="email">Email</label>
+            @Html.LabelFor(model=>model.email )
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.email)
                 @Html.ValidationMessageFor(model => model.email)
@@ -93,7 +93,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="phone">Phone</label>
+            @Html.LabelFor(model=>model.phone )
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.phone)
                 @Html.ValidationMessageFor(model => model.phone)
@@ -101,7 +101,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="cell">Cell</label>
+           @Html.LabelFor(model=>model.cell)
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.cell)
                 @Html.ValidationMessageFor(model => model.cell)
@@ -109,7 +109,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="address">Address</label>
+            @Html.LabelFor(model=>model.address )
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.address)
                 @Html.ValidationMessageFor(model => model.address)
@@ -117,7 +117,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="city">City</label>
+           @Html.LabelFor(model=>model.city )
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.city)
                 @Html.ValidationMessageFor(model => model.city)
@@ -125,7 +125,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="state">State</label>
+           @Html.LabelFor(model=>model.state)
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.state)
                 @Html.ValidationMessageFor(model => model.state)
@@ -133,7 +133,7 @@
         </div>
 
         <div class="metro-form-control">
-            <label for="zipcode">Zipcode</label>
+            @Html.LabelFor(model=>model.zipcode)
             <div class="metro-text-box">
                 @Html.EditorFor(model => model.zipcode)
                 @Html.ValidationMessageFor(model => model.zipcode)

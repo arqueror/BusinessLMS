@@ -14,7 +14,7 @@ namespace BusinessLMSWeb.Models
         [Display(Name = "Dreams ID")]
         public int timeframeId { get; set; }
 
-        [Display(Name = "Area ID")]
+        [Display(Name = "AreaTitle", ResourceType = typeof(TextResources.Businesslms))]
         public int areaId { get; set; }
 
 

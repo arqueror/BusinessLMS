@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<BusinessLMSWeb.Models.Book>
 
 @{
-	ViewBag.Title = "Recomended Books";
+    ViewBag.Title = "Recommended Books"; 
 	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -20,7 +20,7 @@
 			</tr>
 		</thead>
 		<tbody>
-		@foreach (var item in Model)
+		@foreach (var item in Model )
 		{
 			<tr>
 				<td>@Html.DisplayFor(modelItem => item.Title)</td>
